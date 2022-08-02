@@ -4,7 +4,7 @@ metadata:
   name: gitops-demo-app
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 40s
   url: ssh://git@github.com/pythops/gitops-demo-app
   ref:
     branch: master
@@ -17,7 +17,7 @@ metadata:
   name: gitops-demo-app
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 40s
   sourceRef:
     kind: GitRepository
     name: gitops-demo-app
